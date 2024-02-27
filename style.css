@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Square+Peg&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f9e1ed;
+}
+
+.square-peg-regular {
+    font-family: "Square Peg", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.show-winner{
+    position: absolute;
+    height: 100vh;
+    width: 100vb;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: rgba(0, 0, 0, 0.622);
+}
+
+.winner-message{
+    color: white;
+
+}
+.rst{
+    background-color: black;
+    color: wheat;
+    height: 3rem;
+    width:7rem;
+    font-size: 1.2rem;
+}
+
+.nav{
+    background: #f4afd1;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.boxes{
+    display: grid;
+    margin: auto;
+    margin-top: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
+    width: 300px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    font-family: "Square Peg", cursive;
+    font-weight: 900;
+    font-size: 3.5rem;
+    background: rgba(255, 255, 255, 0);
+}
+.box:disabled{
+    color: black;
+}
+.turn-msg{
+    text-align: center;
+}
+
+.butn{
+    text-align: center;
+}
+.msg{
+    font-family: "Square Peg", cursive;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.reset{
+    background-color: black;
+    color: wheat;
+    height: 3rem;
+    width:7rem;
+    font-size: 1.2rem;
+}
+
+.bl{
+    border-left: none;
+}
+.br{
+    border-right: none;
+}
+.bt{
+    border-top: none;
+}
+.bb{
+    border-bottom: none;
+}
